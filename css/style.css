@@ -1,0 +1,37 @@
+
+body{
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+   background-color: rgb(66, 96, 193);
+}
+.card{
+    width: 360px;
+    height: 500px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: white;
+}
+.card-img img{
+    width: 360px;
+    height: 200px;
+    border-radius: 25px 25px 0 0;
+}
+.card-text{
+    text-align: center;
+    margin: 30px;
+}
+.data{
+    background-color: deepskyblue;
+    display: inline-block;
+    padding: 25px;
+    width: 100%;
+}
+button{
+    background-color: deepskyblue;
+}
